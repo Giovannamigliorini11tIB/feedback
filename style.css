@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Overpass", sans-serif;
+    -webkit-font-smoothing: antialiased;
 }
 
 :root {
@@ -34,10 +35,15 @@ body{
 
 .card h1{
     color: var(--white);
+    font-size: 20px;
+    margin-bottom: 15px;
 }
 
 .card p{
     color: var(--light-gray);
+    font-size: 15px;
+    line-height: 24px;
+    margin-bottom: 24px;
 }
 
 .estrela{
@@ -48,4 +54,27 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+
+    border-radius: 50px;
+
+    margin-bottom: 30px;
+}
+
+.botoes{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 32px;
+}
+
+.botoes button{
+    width: 51px;
+    height: 51px;
+    font-size: 16px;
+    line-height: 24px;
+    border-radius: 50px;s
+    border: none;
+    color: var(--medium-grey);
+    background-color: var(--dark-blue);
+
+    transition: all ease-in-out 0.3s;
 }
