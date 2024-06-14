@@ -26,8 +26,8 @@ body{
 
 .card{
     background: var(--black-gradient);
-    max-width: 412px;
-    padding: 32px;
+     max-width: 412px;
+   padding: 32px;
     border-radius: 30px;
 }
 .estrela{
